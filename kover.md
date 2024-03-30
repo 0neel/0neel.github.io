@@ -61,6 +61,12 @@ subprojects {
         project.dependencies.kover dependencyProject
       }
     }
+
+    configurations.api {
+      dependencies.withType(ProjectDependency) {
+        project.dependencies.kover dependencyProject
+      }
+    }
   }
 }
 ```
