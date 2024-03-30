@@ -8,3 +8,4 @@
 ## Гайды
 
 - [Настройка Kover в многомодульном Android-проекте](kover.md)
+- [Настройка SonarCloud в многомодульном Android-приложении](sonar/index.md)
